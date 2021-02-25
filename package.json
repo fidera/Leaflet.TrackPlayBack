@@ -1,8 +1,11 @@
 {
-  "name": "leaflet-plugin-trackplayback",
-  "version": "1.2.1",
-  "description": "track playback plugin based on leaflet",
+  "name": "@fidera/leaflet-plugin-trackplayback",
+  "version": "2.0.0",
+  "description": "Fidera fork of a track playback plugin based on leaflet",
   "main": "dist/leaflet.trackplayback.js",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "directories": {
     "example": "examples",
     "lib": "lib"
@@ -15,7 +18,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/linghuam/Leaflet.TrackPlayback.git"
+    "url": "https://github.com/fidera/Leaflet.TrackPlayBack.git"
   },
   "keywords": [
     "leaflet",
@@ -24,12 +27,11 @@
     "locus",
     "canvas"
   ],
-  "author": "linghuam",
+  "author": "linghuam, Fidera Oy",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/linghuam/Leaflet.TrackPlayback/issues"
+    "url": "https://github.com/fidera/Leaflet.TrackPlayBack/issues"
   },
-  "homepage": "https://github.com/linghuam/Leaflet.TrackPlayback#readme",
   "devDependencies": {
     "copy-webpack-plugin": "^4.5.3",
     "eslint": "^5.6.1",
