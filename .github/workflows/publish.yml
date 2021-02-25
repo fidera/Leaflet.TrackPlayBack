@@ -2,7 +2,7 @@ name: Publish @fidera/Leaflet.TrackPlayback to Github Packages
 on:
   push:
     branches:
-      - develop
+      - master
 jobs:
   publish:
     name: Build and publish
