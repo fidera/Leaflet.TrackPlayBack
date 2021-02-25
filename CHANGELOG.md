@@ -1,6 +1,13 @@
 # Leaflet Trackplayback
 
-## [unreleased]
+## [2.0.0] - 2021-02-25
+
+### Changed
+
+- Changed package name to `@fidera/leaflet-plugin-trackplayback`.
+
+### Fixed
+- Fix Gihub Action workflow.
 
 ## [1.2.1] - 2021-02-25
 
